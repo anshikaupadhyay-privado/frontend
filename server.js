@@ -14,7 +14,7 @@ var request      = require("request")
   , user         = require("./api/user")
   , metrics      = require("./api/metrics")
   , app          = express()
-
+console.log("criminal", crime, criminal);
 app.use(helpers.rewriteSlash);
 app.use(metrics);
 app.use(express.static("public"));
